@@ -122,10 +122,10 @@ app.controller('myPageCtrl', function($scope,$http){
 
 	$scope.counterInit = function() {
 		$('.statistic').on('inview.uk.scrollspy', function(){
-			$scope.numAnim1 = new CountUp('statistic_counter_1', 0, 100, 0, 3.5);
-			$scope.numAnim2 = new CountUp('statistic_counter_2', 0, 150, 0, 3.5);
-			$scope.numAnim3 = new CountUp('statistic_counter_3', 0, 500, 0, 3.5);
-			$scope.numAnim4 = new CountUp('statistic_counter_4', 0, 750, 0, 3.5);
+			$scope.numAnim1 = new CountUp('statistic_counter_1', 0, 400, 0, 3.5);
+			$scope.numAnim2 = new CountUp('statistic_counter_2', 0, 100, 0, 3.5);
+			$scope.numAnim3 = new CountUp('statistic_counter_3', 0, 6, 0, 3.5);
+			$scope.numAnim4 = new CountUp('statistic_counter_4', 0, 250, 0, 3.5);
 			$scope.numAnim1.start();
 			$scope.numAnim2.start();
 			$scope.numAnim3.start();
