@@ -93,7 +93,7 @@
 				<div class="uk-margin-large-bottom elements_item">
 					<div class="uk-icon-thumbs-o-up uk-border-circle elements_item_label"></div>
 					<h4 class="uk-h4 elements_item_text">Technically skilled</h4>
-					<p class="elements_item_desc">Understanding the theoretical background of Data Science is important--almost as important is to understand its limitations</p>
+					<p class="elements_item_desc">Understanding the theoretical background of Data Science is important--almost as important as understanding its limitations</p>
 				</div>
 			</div>
 			<div class="uk-width-large-1-4 uk-width-small-1-2 animated">
@@ -183,8 +183,8 @@
 						<div class="uk-icon-picture-o features_logo"></div>
 					</div>
 					<div class="uk-width-1-1">
-						<h4 class="uk-h4 uk-text-contrast features_caption">Responsive design</h4>
-						<p class="uk-text-contrast features_text">Pro in a velit aliquam vitae males uada rutrum. Aenean ullam corper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum</p>
+						<h4 class="uk-h4 uk-text-contrast features_caption">Career Coaching</h4>
+						<p class="uk-text-contrast features_text">You will have access to a mentor to consult your development. Your career coach will help you to prepare for technical interviews.</p>
 					</div>
 				</div>
 			</div>
@@ -309,7 +309,26 @@
 		<h3 class="uk-h3 uk-text-contrast animated section_title subscribe_title">Subscribe to <strong>Talk Data To Mex</strong></h3>
 		<h4 class="uk-h4 uk-text-contrast uk-margin-large-bottom animated section_subtitle">Our weekly newsletter with relevant happenings of Data Science in Mexico<br>Data Science Events<br>Job posts for Data Science, Data Engineering, and more</h4>
 
-	<form class="uk-form animated form_sign_in" autocomplete="off" action="https://instagram.us18.list-manage.com/subscribe/post?u=862cf1e2db354ca7439daabcb&amp;id=9fc63d0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+		<form class="uk-form animated form_sign_in" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+			<div class="uk-grid uk-grid-collapse uk-container-center uk-width-medium-2-3 uk-width-large-1-2 uk-margin-bottom">
+			  <p class="hidden">
+			    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+			  </p>
+			  <p>
+					<div class="uk-width-small-3-4 uk-margin-bottom">
+			    	<input type="text" name="email" class="uk-width-1-1 uk-text-contrast form_input" placeholder="email address"/>
+					</div>
+			  </p>
+			  <p>
+					<div class="uk-width-small-1-4 uk-margin-bottom">
+			    	<button type="submit" class="uk-width-1-1 uk-button button_custom_green form_button">Send</button>
+					</div>
+			  </p>
+			</div>
+		</form>
+
+
+	<!-- <form class="uk-form animated form_sign_in" autocomplete="off" action="https://instagram.us18.list-manage.com/subscribe/post?u=862cf1e2db354ca7439daabcb&amp;id=9fc63d0c0d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 		<div class="uk-grid uk-grid-collapse uk-container-center uk-width-medium-2-3 uk-width-large-1-2 uk-margin-bottom">
 			<div class="uk-width-small-3-4 uk-margin-bottom">
 				<input name="EMAIL" type="email" class="uk-width-1-1 uk-text-contrast form_input" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
@@ -318,10 +337,10 @@
 				<button class="uk-width-1-1 uk-button button_custom_green form_button" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
 			</div>
 		</div>
-	</form>
+	</form> -->
 
 		<!-- NEWSLETTER FORM -->
-		<!-- <form data-ng-submit="subLetterForm($event);" class="uk-form animated form_sign_in" autocomplete="off">
+		<!-- <form data-ng-submit="subLetterForm($event);" class="uk-form animated form_sign_in" autocomplete="off" action="https://instagram.us18.list-manage.com/subscribe/post?u=862cf1e2db354ca7439daabcb&amp;id=9fc63d0c0d">
 			<div class="uk-grid uk-grid-collapse uk-container-center uk-width-medium-2-3 uk-width-large-1-2 uk-margin-bottom">
 				<div class="uk-width-small-3-4 uk-margin-bottom">
 					<input name="email" class="uk-width-1-1 uk-text-contrast form_input" type="email" placeholder="Enter your e-mail">
@@ -486,7 +505,7 @@
 						<div class="statistic_caption">
 							<span class="statistic_counter" id="statistic_counter_1">0</span>
 						</div>
-						<div class="statistic_text">Technical hours</div>
+						<div class="statistic_text">Technical hours including theory, tutorials, practice, and presenting your findings</div>
 					</div>
 				</div>
 				<div class="uk-width-large-1-4 uk-width-small-1-2 animated">
@@ -494,7 +513,7 @@
 						<div class="statistic_caption">
 							<span class="statistic_counter" id="statistic_counter_2">0</span>
 						</div>
-						<div class="statistic_text">Soft skills hours</div>
+						<div class="statistic_text">Soft skills hours including leadership, teamwork, and effective communication</div>
 					</div>
 				</div>
 				<div class="uk-width-large-1-4 uk-width-small-1-2 animated">
@@ -502,7 +521,7 @@
 						<div class="statistic_caption">
 							<span class="statistic_counter" id="statistic_counter_3">0</span>
 						</div>
-						<div class="statistic_text">Hands-on real-data projects</div>
+						<div class="statistic_text">Hands-on real-data projects that you may include in your portfolio</div>
 					</div>
 				</div>
 				<div class="uk-width-large-1-4 uk-width-small-1-2 animated">
@@ -510,7 +529,7 @@
 						<div class="statistic_caption">
 							<span class="statistic_counter" id="statistic_counter_4">0</span>
 						</div>
-						<div class="statistic_text">More than 250 jobs for data scientists listed on linkedin as of 11/2</div>
+						<div class="statistic_text">More than 250 jobs for data scientists in Mexico, listed on linkedin as of 11/2</div>
 					</div>
 				</div>
 			</div>

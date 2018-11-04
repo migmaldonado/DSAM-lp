@@ -10,7 +10,7 @@ app.controller('myPageCtrl', function($scope,$http){
 	/* ------------------------------ */
 
 	$scope.mapInitialization = function() {
-		$scope.myLatlng = new google.maps.LatLng(19.426943,-99.167760),
+		$scope.myLatlng = new google.maps.LatLng(19.408931,-99.168867),
 		$scope.mapOptions = {
 			zoom: 14,
 			scrollwheel: false,
@@ -544,7 +544,7 @@ app.controller('myPageCtrl', function($scope,$http){
 								.find('.error_response').html(resp.msg).fadeIn(1000);
 						}
 					},
-					url: "http://google.us3.list-manage.com/subscribe/post?u=54cac12d99d1b2a0c0e0177b4&amp;id=d5469b7ba3" // Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+					url: "https://instagram.us18.list-manage.com/subscribe/post?u=862cf1e2db354ca7439daabcb&amp;id=9fc63d0c0d" // Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 				});
 			})(i);
 		}
