@@ -539,6 +539,10 @@ p {
 
 /******* Price section *******/
 
+.number_strikethrough{
+  text-decoration: line-through;
+}
+
 .price {
 	padding: 100px 0 50px;
 	background: #fff;

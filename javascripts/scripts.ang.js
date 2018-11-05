@@ -124,7 +124,7 @@ app.controller('myPageCtrl', function($scope,$http){
 		$('.statistic').on('inview.uk.scrollspy', function(){
 			$scope.numAnim1 = new CountUp('statistic_counter_1', 0, 400, 0, 3.5);
 			$scope.numAnim2 = new CountUp('statistic_counter_2', 0, 100, 0, 3.5);
-			$scope.numAnim3 = new CountUp('statistic_counter_3', 0, 6, 0, 3.5);
+			$scope.numAnim3 = new CountUp('statistic_counter_3', 0, 8, 0, 3.5);
 			$scope.numAnim4 = new CountUp('statistic_counter_4', 0, 250, 0, 3.5);
 			$scope.numAnim1.start();
 			$scope.numAnim2.start();
