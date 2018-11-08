@@ -50,6 +50,13 @@ p {
 	border-bottom: 1px solid #f0f0f0;
 }
 
+/******* Custom ********/
+.customblocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
 /******* Common *******/
 
 .sepia_overlay,
@@ -191,7 +198,7 @@ p {
 	height: 100%;
 }
 .particles_effect .container {
-	background: url('https://i.imgur.com/rTfs3gI.jpg') no-repeat 0 0;
+	background: url(../images/cdmx-drone-pic-angel-independencia.jpg) no-repeat 0 0;
 	background-size: cover;
 	background-attachment: fixed;
 }
