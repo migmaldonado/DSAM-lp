@@ -162,7 +162,7 @@ p {
 
 .video_background,
 .video {
-	background: url('https://i.imgur.com/XIhgfly.jpg') no-repeat 0 0;
+	background: url('https://i.imgur.com/XIhgfly.jpg') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -198,7 +198,7 @@ p {
 	height: 100%;
 }
 .particles_effect .container {
-	background: url(../images/cdmx-drone-pic-angel-independencia.jpg) no-repeat 0 0;
+	background: url(../images/cdmx-drone-pic-angel-independencia.jpg) no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 
@@ -1166,7 +1166,7 @@ p {
 .contact {
     padding: 100px 0;
 	/*background: url('http://placehold.it/1920x1080') no-repeat 0 0;*/
-  background: url('https://i.imgur.com/ljBydLM.jpg') no-repeat 0 0;
+  background: url('https://i.imgur.com/ljBydLM.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 	border: 0;
@@ -2010,6 +2010,23 @@ p {
 	.subscribe_window_title {
 		font-size: 28px;
 	}
+
+  .video_background,
+	.video,
+	.water_effect .container,
+	.rainy_effect .container,
+	.particles_effect .container,
+	.winter_effect .container,
+	.container,
+	.features,
+	.statistic,
+	.video_preview,
+	.promo,
+	.contact,
+	.subscribe {
+		background-attachment: scroll;
+	}
+
 }
 @media screen and (max-width: 600px) {
 	.three_price_container {
