@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo - Just D</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0C63C0" offset="0%"></stop>
+            <stop stop-color="#0A1A4B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-Versions" transform="translate(-113.000000, -797.000000)">
+            <g id="Logo---Just-D" transform="translate(113.000000, 797.000000)">
+                <g id="D-Logo-Copy-2">
+                    <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="110" height="110" rx="55"></rect>
+                    <path d="M36.6666667,81.9180503 L36.6666667,26.899154 C41.5720819,24.0869858 47.2948727,22.4731183 53.4064312,22.4731183 C71.5973957,22.4731183 86.344086,36.7711214 86.344086,54.4086022 C86.344086,72.0460829 71.5973957,86.344086 53.4064312,86.344086 C47.2948727,86.344086 41.5720819,84.7302185 36.6666667,81.9180503 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="18.4459355"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
